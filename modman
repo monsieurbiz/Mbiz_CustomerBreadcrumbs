@@ -1,0 +1,5 @@
+app/code/community/Mbiz/CustomerBreadcrumbs                             app/code/community/Mbiz/CustomerBreadcrumbs
+app/design/frontend/base/default/layout/mbiz_customerbreadcrumbs.xml    app/design/frontend/base/default/layout/mbiz_customerbreadcrumbs.xml
+app/etc/modules/Mbiz_CustomerBreadcrumbs.xml                            app/etc/modules/Mbiz_CustomerBreadcrumbs.xml
+app/locale/en_US/Mbiz_CustomerBreadcrumbs.csv                           app/locale/en_US/Mbiz_CustomerBreadcrumbs.csv
+app/locale/fr_FR/Mbiz_CustomerBreadcrumbs.csv                           app/locale/fr_FR/Mbiz_CustomerBreadcrumbs.csv
