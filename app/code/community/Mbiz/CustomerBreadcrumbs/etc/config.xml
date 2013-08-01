@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+ * This file is part of Mbiz_CustomerBreadcrumbs for Magento.
+ *
+ * @license All rights reserved
+ * @author Jacques Bodin-Hullin <j.bodinhullin@monsieurbiz.com>
+ * @category Mbiz
+ * @package Mbiz_CustomerBreadcrumbs
+ * @copyright Copyright (c) 2013 Monsieur Biz (http://monsieurbiz.com)
+ */
+-->
+<config>
+    <modules>
+        <Mbiz_CustomerBreadcrumbs>
+            <version>0.1.0</version>
+        </Mbiz_CustomerBreadcrumbs>
+    </modules>
+    <frontend>
+        <layout>
+            <updates>
+                <mbiz_customerbreadcrumbs module="Mbiz_CustomerBreadcrumbs">
+                    <file>mbiz_customerbreadcrumbs.xml</file>
+                </mbiz_customerbreadcrumbs>
+            </updates>
+        </layout>
+        <translate>
+            <modules>
+                <Mbiz_CustomerBreadcrumbs>
+                    <files>
+                        <default>Mbiz_CustomerBreadcrumbs.csv</default>
+                    </files>
+                </Mbiz_CustomerBreadcrumbs>
+            </modules>
+        </translate>
+    </frontend>
+    <global>
+        <helpers>
+            <mbiz_customerbreadcrumbs>
+                <class>Mbiz_CustomerBreadcrumbs_Helper</class>
+            </mbiz_customerbreadcrumbs>
+        </helpers>
+    </global>
+</config>

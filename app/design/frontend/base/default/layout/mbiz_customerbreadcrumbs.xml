@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+/**
+ * This file is part of Mbiz_CustomerBreadcrumbs for Magento.
+ *
+ * @license All rights reserved
+ * @author Jacques Bodin-Hullin <j.bodinhullin@monsieurbiz.com>
+ * @category Mbiz
+ * @package Mbiz_CustomerBreadcrumbs
+ * @copyright Copyright (c) 2013 Monsieur Biz (http://monsieurbiz.com)
+ */
+-->
+<layout version="0.1.0">
+
+    <!-- Customer Account -->
+    <customer_account>
+        <!-- Breadcrumbs -->
+        <reference name="breadcrumbs">
+            <action method="addCrumb" translate="info.label info.title">
+                <name>home</name>
+                <info>
+                    <label>Home</label>
+                    <title>Go to Home Page</title>
+                    <link>{{baseSecureUrl}}</link>
+                    <first>1</first>
+                    <last>0</last>
+                </info>
+            </action>
+            <action method="addCrumb" translate="info.label info.title">
+                <name>account</name>
+                <info>
+                    <label>Account Dashboard</label>
+                    <title></title>
+                    <link>{{baseSecureUrl}}customer/account/</link>
+                    <first>0</first>
+                    <last>0</last>
+                </info>
+            </action>
+        </reference>
+    </customer_account>
+
+    <!-- Customer Account Dashboard -->
+    <customer_account_index>
+        <!-- Breadcrumbs -->
+        <reference name="breadcrumbs">
+            <action method="addCrumb" translate="info.label info.title">
+                <name>account</name>
+                <info>
+                    <label>Account Dashboard</label>
+                    <title></title>
+                    <link></link>
+                    <first>0</first>
+                    <last>1</last>
+                </info>
+            </action>
+        </reference>
+    </customer_account_index>
+
+    <!-- Customer Account Edit -->
+    <customer_account_edit>
+        <!-- Breadcrumbs -->
+        <reference name="breadcrumbs">
+            <action method="addCrumb" translate="info.label info.title">
+                <name>account_edit</name>
+                <info>
+                    <label>Account Information</label>
+                    <title></title>
+                    <link></link>
+                    <first>0</first>
+                    <last>1</last>
+                </info>
+            </action>
+        </reference>
+    </customer_account_edit>
+
+    <!-- Customer Addess Index -->
+    <customer_address_index>
+        <!-- Breadcrumbs -->
+        <reference name="breadcrumbs">
+            <action method="addCrumb" translate="info.label info.title">
+                <name>address_index</name>
+                <info>
+                    <label>Address Book</label>
+                    <title></title>
+                    <link></link>
+                    <first>0</first>
+                    <last>1</last>
+                </info>
+            </action>
+        </reference>
+    </customer_address_index>
+
+    <!-- Customer Addess Index -->
+    <customer_address_form>
+        <!-- Breadcrumbs -->
+        <reference name="breadcrumbs">
+            <action method="addCrumb" translate="info.label info.title">
+                <name>address_index</name>
+                <info>
+                    <label>Address Book</label>
+                    <title>Address Book</title>
+                    <link>{{baseSecureUrl}}customer/address/</link>
+                    <first>0</first>
+                    <last>0</last>
+                </info>
+            </action>
+            <action method="addCrumb" translate="info.label info.title">
+                <name>address_form</name>
+                <info>
+                    <label>Address Form</label>
+                    <title></title>
+                    <link></link>
+                    <first>0</first>
+                    <last>1</last>
+                </info>
+            </action>
+        </reference>
+    </customer_address_form>
+
+    <!-- Sales order history -->
+    <sales_order_history>
+        <!-- Breadcrumbs -->
+        <reference name="breadcrumbs">
+            <action method="addCrumb" translate="info.label info.title">
+                <name>orders</name>
+                <info>
+                    <label>My Orders</label>
+                    <title></title>
+                    <link></link>
+                    <first>0</first>
+                    <last>1</last>
+                </info>
+            </action>
+        </reference>
+    </sales_order_history>
+
+    <!-- Sales order view -->
+    <sales_order_view>
+        <!-- Breadcrumbs -->
+        <reference name="breadcrumbs">
+            <action method="addCrumb" translate="info.label info.title">
+                <name>orders</name>
+                <info>
+                    <label>My Orders</label>
+                    <title></title>
+                    <link>{{baseSecureUrl}}sales/order/</link>
+                    <first>0</first>
+                    <last>0</last>
+                </info>
+            </action>
+            <action method="addCrumb" translate="info.label info.title">
+                <name>order_view</name>
+                <info>
+                    <label>My order</label>
+                    <title></title>
+                    <link></link>
+                    <first>0</first>
+                    <last>1</last>
+                </info>
+            </action>
+        </reference>
+    </sales_order_view>
+
+    <!-- Sales order invoice -->
+    <sales_order_invoice>
+        <!-- Breadcrumbs -->
+        <reference name="breadcrumbs">
+            <action method="addCrumb" translate="info.label info.title">
+                <name>orders</name>
+                <info>
+                    <label>My Orders</label>
+                    <title></title>
+                    <link>{{baseSecureUrl}}sales/order/</link>
+                    <first>0</first>
+                    <last>0</last>
+                </info>
+            </action>
+            <action method="addCrumb" translate="info.label info.title">
+                <name>order_view</name>
+                <info>
+                    <label>My order</label>
+                    <title></title>
+                    <link></link>
+                    <first>0</first>
+                    <last>1</last>
+                </info>
+            </action>
+        </reference>
+    </sales_order_invoice>
+
+    <!-- Sales order shipment -->
+    <sales_order_shipment>
+        <!-- Breadcrumbs -->
+        <reference name="breadcrumbs">
+            <action method="addCrumb" translate="info.label info.title">
+                <name>orders</name>
+                <info>
+                    <label>My Orders</label>
+                    <title></title>
+                    <link>{{baseSecureUrl}}sales/order/</link>
+                    <first>0</first>
+                    <last>0</last>
+                </info>
+            </action>
+            <action method="addCrumb" translate="info.label info.title">
+                <name>order_view</name>
+                <info>
+                    <label>My order</label>
+                    <title></title>
+                    <link></link>
+                    <first>0</first>
+                    <last>1</last>
+                </info>
+            </action>
+        </reference>
+    </sales_order_shipment>
+
+    <!-- Sales order creditmemo -->
+    <sales_order_creditmemo>
+        <!-- Breadcrumbs -->
+        <reference name="breadcrumbs">
+            <action method="addCrumb" translate="info.label info.title">
+                <name>orders</name>
+                <info>
+                    <label>My Orders</label>
+                    <title></title>
+                    <link>{{baseSecureUrl}}sales/order/</link>
+                    <first>0</first>
+                    <last>0</last>
+                </info>
+            </action>
+            <action method="addCrumb" translate="info.label info.title">
+                <name>order_view</name>
+                <info>
+                    <label>My order</label>
+                    <title></title>
+                    <link></link>
+                    <first>0</first>
+                    <last>1</last>
+                </info>
+            </action>
+        </reference>
+    </sales_order_creditmemo>
+
+    <!-- Review customer -->
+    <review_customer_index>
+        <!-- Breadcrumbs -->
+        <reference name="breadcrumbs">
+            <action method="addCrumb" translate="info.label info.title">
+                <name>reviews</name>
+                <info>
+                    <label>My Product Reviews</label>
+                    <title></title>
+                    <link></link>
+                    <first>0</first>
+                    <last>1</last>
+                </info>
+            </action>
+        </reference>
+    </review_customer_index>
+
+    <!-- Review customer view -->
+    <review_customer_view>
+        <!-- Breadcrumbs -->
+        <reference name="breadcrumbs">
+            <action method="addCrumb" translate="info.label info.title">
+                <name>reviews</name>
+                <info>
+                    <label>My Product Reviews</label>
+                    <title>My Product Reviews</title>
+                    <link>{{baseSecureUrl}}review/customer/</link>
+                    <first>0</first>
+                    <last>0</last>
+                </info>
+            </action>
+            <action method="addCrumb" translate="info.label info.title">
+                <name>review</name>
+                <info>
+                    <label>Review detail</label>
+                    <title></title>
+                    <link></link>
+                    <first>0</first>
+                    <last>1</last>
+                </info>
+            </action>
+        </reference>
+    </review_customer_view>
+
+    <!-- Wishlist -->
+    <wishlist_index_index>
+        <!-- Breadcrumbs -->
+        <reference name="breadcrumbs">
+            <action method="addCrumb" translate="info.label info.title">
+                <name>wishlist</name>
+                <info>
+                    <label>My Wishlist</label>
+                    <title></title>
+                    <link></link>
+                    <first>0</first>
+                    <last>1</last>
+                </info>
+            </action>
+        </reference>
+    </wishlist_index_index>
+
+    <!-- Wishlist configure product -->
+    <wishlist_index_configure>
+        <!-- nop -->
+    </wishlist_index_configure>
+
+    <!-- Wishlist share -->
+    <wishlist_index_share>
+        <!-- Breadcrumbs -->
+        <reference name="breadcrumbs">
+            <action method="addCrumb" translate="info.label info.title">
+                <name>wishlist</name>
+                <info>
+                    <label>My Wishlist</label>
+                    <title>My Wishlist</title>
+                    <link>{{baseSecureUrl}}wishlist/</link>
+                    <first>0</first>
+                    <last>0</last>
+                </info>
+            </action>
+            <action method="addCrumb" translate="info.label info.title">
+                <name>wishlist_share</name>
+                <info>
+                    <label>Share</label>
+                    <title></title>
+                    <link></link>
+                    <first>0</first>
+                    <last>1</last>
+                </info>
+            </action>
+        </reference>
+    </wishlist_index_share>
+
+    <!-- Newsletter -->
+    <newsletter_manage_index>
+        <!-- Breadcrumbs -->
+        <reference name="breadcrumbs">
+            <action method="addCrumb" translate="info.label info.title">
+                <name>newsletter</name>
+                <info>
+                    <label>Newsletter Subscription</label>
+                    <title></title>
+                    <link></link>
+                    <first>0</first>
+                    <last>1</last>
+                </info>
+            </action>
+        </reference>
+    </newsletter_manage_index>
+
+</layout>
