@@ -143,7 +143,7 @@
                 <info>
                     <label>My Orders</label>
                     <title></title>
-                    <link>{{baseSecureUrl}}sales/order/</link>
+                    <link>{{baseSecureUrl}}sales/order/history/</link>
                     <first>0</first>
                     <last>0</last>
                 </info>
@@ -170,7 +170,7 @@
                 <info>
                     <label>My Orders</label>
                     <title></title>
-                    <link>{{baseSecureUrl}}sales/order/</link>
+                    <link>{{baseSecureUrl}}sales/order/history/</link>
                     <first>0</first>
                     <last>0</last>
                 </info>
@@ -197,7 +197,7 @@
                 <info>
                     <label>My Orders</label>
                     <title></title>
-                    <link>{{baseSecureUrl}}sales/order/</link>
+                    <link>{{baseSecureUrl}}sales/order/history/</link>
                     <first>0</first>
                     <last>0</last>
                 </info>
@@ -224,7 +224,7 @@
                 <info>
                     <label>My Orders</label>
                     <title></title>
-                    <link>{{baseSecureUrl}}sales/order/</link>
+                    <link>{{baseSecureUrl}}sales/order/history/</link>
                     <first>0</first>
                     <last>0</last>
                 </info>
