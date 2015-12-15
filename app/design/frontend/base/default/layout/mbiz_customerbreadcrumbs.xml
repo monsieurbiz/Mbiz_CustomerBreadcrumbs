@@ -16,7 +16,7 @@
     <customer_account>
         <!-- Breadcrumbs -->
         <reference name="breadcrumbs">
-            <action method="addCrumb" translate="info.label info.title">
+            <action method="addCrumb" translate="info.label info.title" module="mbiz_customerbreadcrumbs">
                 <name>home</name>
                 <info>
                     <label>Home</label>
@@ -26,7 +26,7 @@
                     <last>0</last>
                 </info>
             </action>
-            <action method="addCrumb" translate="info.label info.title">
+            <action method="addCrumb" translate="info.label info.title" module="mbiz_customerbreadcrumbs">
                 <name>account</name>
                 <info>
                     <label>Account Dashboard</label>
@@ -43,7 +43,7 @@
     <customer_account_index>
         <!-- Breadcrumbs -->
         <reference name="breadcrumbs">
-            <action method="addCrumb" translate="info.label info.title">
+            <action method="addCrumb" translate="info.label info.title" module="mbiz_customerbreadcrumbs">
                 <name>account</name>
                 <info>
                     <label>Account Dashboard</label>
@@ -246,7 +246,7 @@
     <review_customer_index>
         <!-- Breadcrumbs -->
         <reference name="breadcrumbs">
-            <action method="addCrumb" translate="info.label info.title">
+            <action method="addCrumb" translate="info.label info.title" module="mbiz_customerbreadcrumbs">
                 <name>reviews</name>
                 <info>
                     <label>My Product Reviews</label>
@@ -263,7 +263,7 @@
     <review_customer_view>
         <!-- Breadcrumbs -->
         <reference name="breadcrumbs">
-            <action method="addCrumb" translate="info.label info.title">
+            <action method="addCrumb" translate="info.label info.title" module="mbiz_customerbreadcrumbs">
                 <name>reviews</name>
                 <info>
                     <label>My Product Reviews</label>
@@ -273,7 +273,7 @@
                     <last>0</last>
                 </info>
             </action>
-            <action method="addCrumb" translate="info.label info.title">
+            <action method="addCrumb" translate="info.label info.title" module="mbiz_customerbreadcrumbs">
                 <name>review</name>
                 <info>
                     <label>Review detail</label>
@@ -290,7 +290,7 @@
     <wishlist_index_index>
         <!-- Breadcrumbs -->
         <reference name="breadcrumbs">
-            <action method="addCrumb" translate="info.label info.title">
+            <action method="addCrumb" translate="info.label info.title" module="mbiz_customerbreadcrumbs">
                 <name>wishlist</name>
                 <info>
                     <label>My Wishlist</label>
@@ -312,7 +312,7 @@
     <wishlist_index_share>
         <!-- Breadcrumbs -->
         <reference name="breadcrumbs">
-            <action method="addCrumb" translate="info.label info.title">
+            <action method="addCrumb" translate="info.label info.title" module="mbiz_customerbreadcrumbs">
                 <name>wishlist</name>
                 <info>
                     <label>My Wishlist</label>
@@ -322,7 +322,7 @@
                     <last>0</last>
                 </info>
             </action>
-            <action method="addCrumb" translate="info.label info.title">
+            <action method="addCrumb" translate="info.label info.title" module="mbiz_customerbreadcrumbs">
                 <name>wishlist_share</name>
                 <info>
                     <label>Share</label>
@@ -339,7 +339,7 @@
     <newsletter_manage_index>
         <!-- Breadcrumbs -->
         <reference name="breadcrumbs">
-            <action method="addCrumb" translate="info.label info.title">
+            <action method="addCrumb" translate="info.label info.title" module="mbiz_customerbreadcrumbs">
                 <name>newsletter</name>
                 <info>
                     <label>Newsletter Subscription</label>
