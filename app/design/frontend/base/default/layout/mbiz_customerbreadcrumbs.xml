@@ -16,7 +16,7 @@
     <customer_account>
         <!-- Breadcrumbs -->
         <reference name="breadcrumbs">
-            <action method="addCrumb" translate="info.label info.title" module="mbiz_customerbreadcrumbs">
+            <action method="addCrumb" translate="info.label info.title" module="mbiz_customerbreadcrumbs" ifconfig="mbiz_customerbreadcrumbs/general/active">
                 <name>home</name>
                 <info>
                     <label>Home</label>
@@ -26,7 +26,7 @@
                     <last>0</last>
                 </info>
             </action>
-            <action method="addCrumb" translate="info.label info.title" module="mbiz_customerbreadcrumbs">
+            <action method="addCrumb" translate="info.label info.title" module="mbiz_customerbreadcrumbs" ifconfig="mbiz_customerbreadcrumbs/general/active">
                 <name>account</name>
                 <info>
                     <label>Account Dashboard</label>
@@ -43,7 +43,7 @@
     <customer_account_index>
         <!-- Breadcrumbs -->
         <reference name="breadcrumbs">
-            <action method="addCrumb" translate="info.label info.title" module="mbiz_customerbreadcrumbs">
+            <action method="addCrumb" translate="info.label info.title" module="mbiz_customerbreadcrumbs" ifconfig="mbiz_customerbreadcrumbs/general/active">
                 <name>account</name>
                 <info>
                     <label>Account Dashboard</label>
@@ -60,7 +60,7 @@
     <customer_account_edit>
         <!-- Breadcrumbs -->
         <reference name="breadcrumbs">
-            <action method="addCrumb" translate="info.label info.title" module="customer">
+            <action method="addCrumb" translate="info.label info.title" module="customer" ifconfig="mbiz_customerbreadcrumbs/general/active">
                 <name>account_edit</name>
                 <info>
                     <label>Account Information</label>
@@ -77,7 +77,7 @@
     <customer_address_index>
         <!-- Breadcrumbs -->
         <reference name="breadcrumbs">
-            <action method="addCrumb" translate="info.label info.title" module="customer">
+            <action method="addCrumb" translate="info.label info.title" module="customer" ifconfig="mbiz_customerbreadcrumbs/general/active">
                 <name>address_index</name>
                 <info>
                     <label>Address Book</label>
@@ -94,7 +94,7 @@
     <customer_address_form>
         <!-- Breadcrumbs -->
         <reference name="breadcrumbs">
-            <action method="addCrumb" translate="info.label info.title" module="customer">
+            <action method="addCrumb" translate="info.label info.title" module="customer" ifconfig="mbiz_customerbreadcrumbs/general/active">
                 <name>address_index</name>
                 <info>
                     <label>Address Book</label>
@@ -104,7 +104,7 @@
                     <last>0</last>
                 </info>
             </action>
-            <action method="addCrumb" translate="info.label info.title" module="customer">
+            <action method="addCrumb" translate="info.label info.title" module="customer" ifconfig="mbiz_customerbreadcrumbs/general/active">
                 <name>address_form</name>
                 <info>
                     <label>Address Form</label>
@@ -121,7 +121,7 @@
     <sales_order_history>
         <!-- Breadcrumbs -->
         <reference name="breadcrumbs">
-            <action method="addCrumb" translate="info.label info.title" module="sales">
+            <action method="addCrumb" translate="info.label info.title" module="sales" ifconfig="mbiz_customerbreadcrumbs/general/active">
                 <name>orders</name>
                 <info>
                     <label>My Orders</label>
@@ -138,7 +138,7 @@
     <sales_order_view>
         <!-- Breadcrumbs -->
         <reference name="breadcrumbs">
-            <action method="addCrumb" translate="info.label info.title" module="sales">
+            <action method="addCrumb" translate="info.label info.title" module="sales" ifconfig="mbiz_customerbreadcrumbs/general/active">
                 <name>orders</name>
                 <info>
                     <label>My Orders</label>
@@ -148,7 +148,7 @@
                     <last>0</last>
                 </info>
             </action>
-            <action method="addCrumb" translate="info.label info.title" module="sales">
+            <action method="addCrumb" translate="info.label info.title" module="sales" ifconfig="mbiz_customerbreadcrumbs/general/active">
                 <name>order_view</name>
                 <info>
                     <label>My order</label>
@@ -165,7 +165,7 @@
     <sales_order_invoice>
         <!-- Breadcrumbs -->
         <reference name="breadcrumbs">
-            <action method="addCrumb" translate="info.label info.title" module="sales">
+            <action method="addCrumb" translate="info.label info.title" module="sales" ifconfig="mbiz_customerbreadcrumbs/general/active">
                 <name>orders</name>
                 <info>
                     <label>My Orders</label>
@@ -175,7 +175,7 @@
                     <last>0</last>
                 </info>
             </action>
-            <action method="addCrumb" translate="info.label info.title" module="sales">
+            <action method="addCrumb" translate="info.label info.title" module="sales" ifconfig="mbiz_customerbreadcrumbs/general/active">
                 <name>order_view</name>
                 <info>
                     <label>My order</label>
@@ -192,7 +192,7 @@
     <sales_order_shipment>
         <!-- Breadcrumbs -->
         <reference name="breadcrumbs">
-            <action method="addCrumb" translate="info.label info.title" module="sales">
+            <action method="addCrumb" translate="info.label info.title" module="sales" ifconfig="mbiz_customerbreadcrumbs/general/active">
                 <name>orders</name>
                 <info>
                     <label>My Orders</label>
@@ -202,7 +202,7 @@
                     <last>0</last>
                 </info>
             </action>
-            <action method="addCrumb" translate="info.label info.title" module="sales">
+            <action method="addCrumb" translate="info.label info.title" module="sales" ifconfig="mbiz_customerbreadcrumbs/general/active">
                 <name>order_view</name>
                 <info>
                     <label>My order</label>
@@ -219,7 +219,7 @@
     <sales_order_creditmemo>
         <!-- Breadcrumbs -->
         <reference name="breadcrumbs">
-            <action method="addCrumb" translate="info.label info.title" module="sales">
+            <action method="addCrumb" translate="info.label info.title" module="sales" ifconfig="mbiz_customerbreadcrumbs/general/active">
                 <name>orders</name>
                 <info>
                     <label>My Orders</label>
@@ -229,7 +229,7 @@
                     <last>0</last>
                 </info>
             </action>
-            <action method="addCrumb" translate="info.label info.title" module="sales">
+            <action method="addCrumb" translate="info.label info.title" module="sales" ifconfig="mbiz_customerbreadcrumbs/general/active">
                 <name>order_view</name>
                 <info>
                     <label>My order</label>
@@ -246,7 +246,7 @@
     <review_customer_index>
         <!-- Breadcrumbs -->
         <reference name="breadcrumbs">
-            <action method="addCrumb" translate="info.label info.title" module="mbiz_customerbreadcrumbs">
+            <action method="addCrumb" translate="info.label info.title" module="mbiz_customerbreadcrumbs" ifconfig="mbiz_customerbreadcrumbs/general/active">
                 <name>reviews</name>
                 <info>
                     <label>My Product Reviews</label>
@@ -263,7 +263,7 @@
     <review_customer_view>
         <!-- Breadcrumbs -->
         <reference name="breadcrumbs">
-            <action method="addCrumb" translate="info.label info.title" module="mbiz_customerbreadcrumbs">
+            <action method="addCrumb" translate="info.label info.title" module="mbiz_customerbreadcrumbs" ifconfig="mbiz_customerbreadcrumbs/general/active">
                 <name>reviews</name>
                 <info>
                     <label>My Product Reviews</label>
@@ -273,7 +273,7 @@
                     <last>0</last>
                 </info>
             </action>
-            <action method="addCrumb" translate="info.label info.title" module="mbiz_customerbreadcrumbs">
+            <action method="addCrumb" translate="info.label info.title" module="mbiz_customerbreadcrumbs" ifconfig="mbiz_customerbreadcrumbs/general/active">
                 <name>review</name>
                 <info>
                     <label>Review detail</label>
@@ -290,7 +290,7 @@
     <wishlist_index_index>
         <!-- Breadcrumbs -->
         <reference name="breadcrumbs">
-            <action method="addCrumb" translate="info.label info.title" module="mbiz_customerbreadcrumbs">
+            <action method="addCrumb" translate="info.label info.title" module="mbiz_customerbreadcrumbs" ifconfig="mbiz_customerbreadcrumbs/general/active">
                 <name>wishlist</name>
                 <info>
                     <label>My Wishlist</label>
@@ -312,7 +312,7 @@
     <wishlist_index_share>
         <!-- Breadcrumbs -->
         <reference name="breadcrumbs">
-            <action method="addCrumb" translate="info.label info.title" module="mbiz_customerbreadcrumbs">
+            <action method="addCrumb" translate="info.label info.title" module="mbiz_customerbreadcrumbs" ifconfig="mbiz_customerbreadcrumbs/general/active">
                 <name>wishlist</name>
                 <info>
                     <label>My Wishlist</label>
@@ -322,7 +322,7 @@
                     <last>0</last>
                 </info>
             </action>
-            <action method="addCrumb" translate="info.label info.title" module="mbiz_customerbreadcrumbs">
+            <action method="addCrumb" translate="info.label info.title" module="mbiz_customerbreadcrumbs" ifconfig="mbiz_customerbreadcrumbs/general/active">
                 <name>wishlist_share</name>
                 <info>
                     <label>Share</label>
@@ -339,7 +339,7 @@
     <newsletter_manage_index>
         <!-- Breadcrumbs -->
         <reference name="breadcrumbs">
-            <action method="addCrumb" translate="info.label info.title" module="mbiz_customerbreadcrumbs">
+            <action method="addCrumb" translate="info.label info.title" module="mbiz_customerbreadcrumbs" ifconfig="mbiz_customerbreadcrumbs/general/active">
                 <name>newsletter</name>
                 <info>
                     <label>Newsletter Subscription</label>

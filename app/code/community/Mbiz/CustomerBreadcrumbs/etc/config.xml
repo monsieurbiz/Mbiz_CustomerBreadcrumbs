@@ -41,4 +41,11 @@
             </mbiz_customerbreadcrumbs>
         </helpers>
     </global>
+    <default>
+        <mbiz_customerbreadcrumbs>
+            <general>
+                <active>1</active>
+            </general>
+        </mbiz_customerbreadcrumbs>
+    </default>
 </config>
